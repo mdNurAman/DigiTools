@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Starter",
+    "description": "Create a clean and professional resume with essential tools.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["50+ resume templates", "Basic ATS optimization", "Export to PDF", "Unlimited editing"],
+    "icon": "FileText"
+  },
+  {
+    "id": 2,
+    "name": "Resume Pro",
+    "description": "Advanced resume-building tools designed to help you stand out.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "Advanced ATS optimization",
+      "AI resume suggestions",
+      "Export to PDF and DOCX",
+      "Cover letter builder"
+    ],
+    "icon": "Briefcase"
+  },
+  {
+    "id": 3,
+    "name": "Career Boost",
+    "description": "A complete toolkit for improving your resume and job applications.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "200+ premium templates",
+      "AI-powered writing assistant",
+      "Advanced ATS optimization",
+      "Unlimited PDF exports",
+      "Cover letter generator",
+      "Resume performance insights"
+    ],
+    "icon": "Rocket"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Pro",
+    "description": "Create personalized and professional cover letters in minutes.",
+    "price": 7.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["30+ cover letter templates", "AI content suggestions", "Job-specific customization", "Export to PDF"],
+    "icon": "Mail"
+  },
+  {
+    "id": 5,
+    "name": "AI Resume Assistant",
+    "description": "Use AI to improve your resume content and make it more impactful.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI-powered rewriting",
+      "Grammar correction",
+      "Keyword optimization",
+      "Job description matching",
+      "ATS score analysis"
+    ],
+    "icon": "Sparkles"
+  },
+  {
+    "id": 6,
+    "name": "Job Seeker Bundle",
+    "description": "Everything you need to prepare professional job applications.",
+    "price": 79.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited resume creation",
+      "Unlimited cover letters",
+      "300+ templates",
+      "AI resume assistant",
+      "ATS optimization",
+      "Interview preparation tools"
+    ],
+    "icon": "GraduationCap"
+  },
+  {
+    "id": 7,
+    "name": "Portfolio Builder",
+    "description": "Build a beautiful online portfolio to showcase your skills and projects.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "20+ portfolio templates",
+      "Custom domain support",
+      "Project showcase",
+      "Responsive design",
+      "SEO optimization"
+    ],
+    "icon": "Globe"
+  },
+  {
+    "id": 8,
+    "name": "Career Premium",
+    "description": "The complete career solution for serious job seekers and professionals.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited resumes",
+      "Unlimited cover letters",
+      "500+ premium templates",
+      "AI career assistant",
+      "Advanced ATS optimization",
+      "Portfolio builder",
+      "Interview preparation",
+      "Priority support"
+    ],
+    "icon": "Crown"
+  }
+]
