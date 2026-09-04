@@ -1,4 +1,8 @@
 import React from "react";
+import userImg from "../../assets/user.png";
+import packageImg from "../../assets/package.png";
+import rocketImg from "../../assets/rocket.png";
+
 const GetStarted = () => {
   return (
     <div className="bg-gray-100">
@@ -16,7 +20,7 @@ const GetStarted = () => {
 
             <div className="flex flex-col items-center text-center gap-3">
               <div className="bg-purple-200 p-3 rounded-full">
-                <img src="../../../assets/user.png" alt="" />
+                <img src={userImg} alt="" />
               </div>
               <h1 className="font-bold text-2xl">Create Account</h1>
               <p>Sign up for free in seconds. No Credit card required to get started.</p>
@@ -29,7 +33,7 @@ const GetStarted = () => {
 
             <div className="flex flex-col items-center text-center gap-3">
               <div className="bg-purple-200 p-3 rounded-full">
-                <img src="../../../assets/package.png" alt="" />
+                <img src={packageImg} alt="" />
               </div>
               <h1 className="font-bold text-2xl">Choose Products</h1>
               <p>Browse our catalog to choose best of best.</p>
@@ -42,7 +46,7 @@ const GetStarted = () => {
 
             <div className="flex flex-col items-center text-center gap-3">
               <div className="bg-purple-200 p-3 rounded-full">
-                <img src="../../../assets/rocket.png" alt="" />
+                <img src={rocketImg} alt="" />
               </div>
               <h1 className="font-bold text-2xl">Start Creating</h1>
               <p>Download and start using your premium tools immedietly.</p>

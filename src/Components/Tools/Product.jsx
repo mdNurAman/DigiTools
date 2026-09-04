@@ -2,25 +2,26 @@ import React from "react";
 import "./Product.css";
 import { FaDollarSign } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
-  import { ToastContainer, toast } from "react-toastify";
-const Product = ({ product,cart,setCart,setPrice }) => {
+import { ToastContainer, toast } from "react-toastify";
+import writingImg from "../../assets/products/writing_2327400 1.png";
+const Product = ({ product, cart, setCart, setPrice }) => {
   function handleBuyNow() {
-    toast(product.name+ " added to the cart");
+    toast(product.name + " added to the cart");
     const newCart = [...cart];
     newCart.push(product);
     setCart(newCart);
     setPrice((prev) => {
       prev = prev * 100;
-      prev = prev + (product.price * 100);
+      prev = prev + product.price * 100;
       prev = prev / 100;
       prev = prev.toFixed(2);
       return Number(prev);
-    })
+    });
   }
   return (
     <div className="rounded-xl border border-gray-300 p-3">
       <div className="upper flex justify-between">
-        <img src="../../../assets/products/writing_2327400 1.png" alt="" />
+        <img src={writingImg} alt="" />
         <h1 className={`${product.tagType}`}>{product.tag}</h1>
       </div>
       {/* Titlt */}

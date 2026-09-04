@@ -1,6 +1,7 @@
 import React from "react";
 import { ToastContainer, toast } from "react-toastify";
 import Product from "../Tools/Product";
+import writingImg from "../../assets/products/writing_2327400 1.png";
 const Cart = ({ cartItem, cart, setCart, setPrice }) => {
   function handleRemove() {
     toast(cartItem.name + " removed from the cart");
@@ -18,7 +19,7 @@ const Cart = ({ cartItem, cart, setCart, setPrice }) => {
     <div className="p-4 bg-gray-200 rounded-xl mb-3 flex justify-between items-center">
       <div className="left flex gap-2 items-center">
         <div className=" p-2 rounded-full bg-white">
-          <img src="../../../assets/products/writing_2327400 1.png" alt="" />
+          <img src={writingImg} alt="" />
         </div>
         <div>
           <h1 className="font-bold text-xl">{cartItem.name}</h1>
