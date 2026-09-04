@@ -2,7 +2,7 @@ import React from 'react';
 import { CiLogin } from "react-icons/ci";
 const Navbar = () => {
   return (
-    <div className="border-b-2 border-gray-200 py-6">
+    <div className="border-b-2 border-gray-200 py-6 px-5 md:px-0">
       <div className="flex items-center justify-between container mx-auto">
         {/* Left nav section  */}
         <div className="left">
@@ -10,7 +10,7 @@ const Navbar = () => {
             DigiTools
           </h1>
         </div>
-        <div className="middle flex items-center gap-5 text-lg">
+        <div className="hidden md:flex flex-col md:flex-row items-center md:gap-5 text-sm md:text-lg">
           <p>Products</p>
           <p>Features</p>
           <p>Pricing</p>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <p>FAQ</p>
         </div>
         <div className="right flex items-center gap-5 text-xl">
-          <div className='flex items-center gap-2'>
+          <div className='hidden md:flex items-center gap-2'>
             <CiLogin />
             <button>Login</button>
           </div>

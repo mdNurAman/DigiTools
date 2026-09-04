@@ -3,9 +3,9 @@ import Stats from './Stats';
 
 const Banner = () => {
   return (
-    <div className="container mx-auto flex items-center justify-between gap-8 my-10">
-      <div>
-        <div className="flex gap-1 bg-[#E1E7FF] px-4 py-2 rounded-2xl items-center w-max my-2">
+    <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8 my-10 px-5 md:px-0">
+      <div className='flex flex-col justify-center items-center md:block'>
+        <div className="flex gap-1 bg-[#E1E7FF] px-4 py-2 rounded-2xl items-center justify-center w-max my-2">
           <img
             className="w-4 h-4"
             src="../../../assets/circle.png
@@ -17,8 +17,8 @@ const Banner = () => {
           </h1>
         </div>
         <div>
-          <h1 className="text-6xl font-bold my-3">
-            Supercharge Your <br /> Digital Workflow
+          <h1 className="text-3xl md:text-6xl font-bold my-3 text-center md:text-left">
+            Supercharge Your <br className='hidden md:block'/> Digital Workflow
           </h1>
         </div>
         <div className="max-w-[600px]">

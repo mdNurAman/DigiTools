@@ -7,7 +7,7 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
-    "features": ["50+ resume templates", "Basic ATS optimization", "Export to PDF", "Unlimited editing"],
+    "features": ["50+ resume templates", "Basic ATS optimization", "Export to PDF"],
     "icon": "FileText"
   },
   {
@@ -21,9 +21,7 @@
     "features": [
       "100+ premium templates",
       "Advanced ATS optimization",
-      "AI resume suggestions",
-      "Export to PDF and DOCX",
-      "Cover letter builder"
+      "AI resume suggestions"
     ],
     "icon": "Briefcase"
   },
@@ -38,10 +36,7 @@
     "features": [
       "200+ premium templates",
       "AI-powered writing assistant",
-      "Advanced ATS optimization",
-      "Unlimited PDF exports",
-      "Cover letter generator",
-      "Resume performance insights"
+      "Advanced ATS optimization"
     ],
     "icon": "Rocket"
   },
@@ -53,7 +48,7 @@
     "period": "one-time",
     "tag": "New",
     "tagType": "new",
-    "features": ["30+ cover letter templates", "AI content suggestions", "Job-specific customization", "Export to PDF"],
+    "features": ["30+ cover letter templates", "AI content suggestions", "Job-specific customization"],
     "icon": "Mail"
   },
   {
@@ -67,9 +62,7 @@
     "features": [
       "AI-powered rewriting",
       "Grammar correction",
-      "Keyword optimization",
-      "Job description matching",
-      "ATS score analysis"
+      "Keyword optimization"
     ],
     "icon": "Sparkles"
   },
@@ -84,10 +77,7 @@
     "features": [
       "Unlimited resume creation",
       "Unlimited cover letters",
-      "300+ templates",
-      "AI resume assistant",
-      "ATS optimization",
-      "Interview preparation tools"
+      "300+ templates"
     ],
     "icon": "GraduationCap"
   },
@@ -102,9 +92,7 @@
     "features": [
       "20+ portfolio templates",
       "Custom domain support",
-      "Project showcase",
-      "Responsive design",
-      "SEO optimization"
+      "Project showcase"
     ],
     "icon": "Globe"
   },
@@ -119,12 +107,8 @@
     "features": [
       "Unlimited resumes",
       "Unlimited cover letters",
-      "500+ premium templates",
-      "AI career assistant",
-      "Advanced ATS optimization",
-      "Portfolio builder",
-      "Interview preparation",
-      "Priority support"
+      "500+ premium templates"
+    
     ],
     "icon": "Crown"
   }
